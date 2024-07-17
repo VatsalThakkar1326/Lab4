@@ -26,23 +26,6 @@ The dataset used for this project is the Fish Market dataset, which includes var
 
 ## Application Structure
 
-### Directory Structure
-
-```
-your_project/
-│
-├── app.py
-├── templates/
-│   └── index.html
-├── regression_model.pkl
-├── classification_model.pkl
-├── scaler.pkl
-├── label_encoder.pkl
-├── requirements.txt
-├── Procfile
-├── runtime.txt
-└── .gitignore
-```
 
 ### Files
 
