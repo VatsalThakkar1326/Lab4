@@ -71,30 +71,50 @@ The dataset used for this project is the Fish Market dataset, which includes var
 
 ### Deployment on Heroku
 
-1. Create a new Heroku app:
-   ```sh
-   heroku create your-app-name
-   ```
+To deploy the application on Heroku using the Heroku user interface, follow these detailed steps:
 
-2. Add the Heroku remote:
-   ```sh
-   git remote add heroku https://git.heroku.com/your-app-name.git
-   ```
+### Deployment on Heroku Using the Heroku User Interface
 
-3. Deploy the application:
-   ```sh
-   git push heroku master
-   ```
+1. **Create a Heroku Account**:
+   If you don't have a Heroku account, you can create one [here](https://signup.heroku.com/).
 
-4. Scale the application:
-   ```sh
-   heroku ps:scale web=1
-   ```
+2. **Login to Heroku**:
+   Go to [Heroku](https://www.heroku.com) and log in to your account.
 
-5. Open the application in your browser:
-   ```sh
-   heroku open
-   ```
+3. **Create a New Heroku App**:
+   - Click on the "New" button at the top right corner of the dashboard.
+   - Select "Create new app".
+   - Enter a unique app name.
+   - Choose your region.
+   - Click "Create app".
+
+4. **Connect to GitHub**:
+   - In the "Deploy" tab, find the "Deployment method" section.
+   - Select "GitHub".
+   - Click on "Connect to GitHub".
+   - Authenticate with GitHub if required.
+   - Search for your repository name and connect it.
+
+5. **Automatic Deploys (Optional)**:
+   - If you want Heroku to automatically deploy new commits, enable "Automatic deploys".
+   - This ensures that every time you push new changes to the main branch, Heroku will redeploy the app.
+
+6. **Manual Deploy**:
+   - In the "Manual deploy" section, select the branch you want to deploy.
+   - Click "Deploy Branch".
+
+7. **Check Build Logs**:
+   - Heroku will now start building your application.
+   - You can monitor the build progress in the build logs.
+   - If the build is successful, your app will be deployed.
+
+8. **Configure Environment Variables**:
+   - Go to the "Settings" tab.
+   - Click on "Reveal Config Vars".
+   - Add any necessary environment variables (if needed).
+
+9. **Open the App**:
+   - Once the deployment is successful, you can open your app by clicking the "Open app" button on the top right.
 
 ## Usage
 
