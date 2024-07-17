@@ -1,4 +1,4 @@
-Creating a well-descriptive README file is essential for documenting your project and making it easier for others to understand and use. Below is a template for a README file for your project.
+# https://fishdata-17370ae93936.herokuapp.com/
 
 ### README.md
 
@@ -153,31 +153,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - The Flask framework for building the web application.
 - Heroku for hosting the application.
 
-## Contact
-
-For any questions or feedback, please contact [your email].
-
----
-
-### Repository URL
-Provide the URL to the corresponding GitHub repo to the instructor: [https://github.com/yourusername/your-repo-name](https://github.com/yourusername/your-repo-name)
 ```
 
-### Steps to Create the README
 
-1. **Create a README file**:
-   ```sh
-   touch README.md
-   ```
-
-2. **Edit the README file**:
-   Copy and paste the content above into the `README.md` file. Make sure to replace placeholders like `yourusername`, `your-repo-name`, and `your email` with your actual GitHub username, repository name, and contact email.
-
-3. **Commit and push the README**:
-   ```sh
-   git add README.md
-   git commit -m "Add README file"
-   git push origin master
-   ```
-
-By following these steps, you will have a well-documented GitHub repository for your project. Ensure the provided URL is accessible and points to the correct repository. If you have any questions or need further assistance, feel free to ask!
